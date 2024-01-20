@@ -7,19 +7,42 @@ aside {
 	width: auto;
 }
 
+aside img {
+	height: auto;
+	width: 200px;
+}
+
 footer {
 	border-top: 1px solid #232323;
 	margin-top: 1rem;
 	text-align: center;
 }
 
+h1 {
+	color: steelblue;
+}
+
+img {
+	border: 1px solid steelblue;
+	box-shadow: 0 0 30px gray;
+	height: auto;
+	padding: 2px;
+	width: 150px;
+}
+
 main {
 	max-width: 840px;
 }
 
-aside img {
-	height: auto;
-	width: 200px;
+nav {
+	background-color: steelblue;
+	padding: 10px;
+}
+
+nav a {
+	color: white;
+	display: block;
+	padding: 20px;
 }
 
 p {
