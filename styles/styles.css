@@ -22,16 +22,17 @@ h1 {
 	color: steelblue;
 }
 
-img {
+
+main {
+	max-width: 840px;
+}
+
+main img {
 	border: 1px solid steelblue;
 	box-shadow: 0 0 30px gray;
 	height: auto;
 	padding: 2px;
 	width: 150px;
-}
-
-main {
-	max-width: 840px;
 }
 
 nav {
