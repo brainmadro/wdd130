@@ -11,7 +11,7 @@ https://coolors.co/274d4c-2f9595-97b1a6-698996-407076 */
 
 	--heading-font: 'Raleway', sans-serif;
 	--paragraph-font: 'Raleway', sans-serif;
-	--nav-background-color: #698996;
+	--nav-background-color: #dce4e7;
 	--nav-link-color: #2F9595;
 	--nav-hover-link-color: #274D4C;
 	--nav-hover-background-color: #274D4C;
@@ -34,7 +34,7 @@ h6 {
 }
 
 header {
-	background-color: var(--accent2-color);
+	background-color: var(--accent1-color);
 	padding: 1rem;
 }
 
