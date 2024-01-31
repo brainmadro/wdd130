@@ -1,10 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 aside {
-	background-color: #e0e0e0;
-	border: none;
-	color: #232323;
-	margin: 1rem;
-	padding: 1.4rem;
+	position: relative;
 	width: auto;
+}
+
+aside h2 {
+	position: absolute;
 }
 
 aside img {
@@ -30,6 +36,7 @@ main {
 main img {
 	border: 1px solid steelblue;
 	box-shadow: 0 0 30px gray;
+	float: right;
 	height: auto;
 	padding: 2px;
 	width: 150px;
@@ -48,4 +55,14 @@ nav a {
 
 p {
 	padding: 0;
+}
+
+/* Class Selectors */
+
+.box {
+	background-color: #ddd;
+	border: 1px solid rgba(0, 0, 0, 1);
+	color: #000;
+	margin: 1rem;
+	padding: 1rem;
 }
