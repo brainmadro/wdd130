@@ -11,6 +11,7 @@ aside {
 
 aside h2 {
 	position: absolute;
+	top: 0px;
 }
 
 aside img {
