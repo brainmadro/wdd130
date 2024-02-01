@@ -39,6 +39,8 @@ h1 {
 }
 
 main {
+    align-items: center;
+	display: grid;
 	grid-area: 1 / 2;
 }
 
